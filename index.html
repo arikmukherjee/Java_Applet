@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Save Trees | Protect Our Planet</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo">🌳 Save Trees</a>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#campaigns">Campaigns</a></li>
+                <li><a href="#impact">Impact</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact" class="btn-primary">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content" data-aos="fade-up">
+            <h1>Save Trees, Save Life 🌍</h1>
+            <p>Every tree planted is a breath of fresh air for the future. Join our mission to reforest the Earth.</p>
+            <div class="hero-btns">
+                <button class="btn-primary plant-btn">🌱 Plant a Tree</button>
+                <button class="btn-secondary">Join Movement</button>
+            </div>
+            <div class="virtual-tree-container">
+                <p>You have planted <span id="tree-count">0</span> trees 🌳</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about section-padding">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-down">Why Trees Matter</h2>
+            <div class="grid">
+                <div class="card glass" data-aos="zoom-in" data-aos-delay="100">
+                    <i class="fas fa-wind icon"></i>
+                    <h3>Oxygen Provider</h3>
+                    <p>A single mature tree can provide enough oxygen for 2 people annually.</p>
+                </div>
+                <div class="card glass" data-aos="zoom-in" data-aos-delay="200">
+                    <i class="fas fa-temperature-low icon"></i>
+                    <h3>Climate Balance</h3>
+                    <p>Trees absorb CO2, acting as a natural carbon sink to cool the planet.</p>
+                </div>
+                <div class="card glass" data-aos="zoom-in" data-aos-delay="300">
+                    <i class="fas fa-paw icon"></i>
+                    <h3>Wildlife Protection</h3>
+                    <p>Forests are home to over 80% of the world's terrestrial biodiversity.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="impact" class="impact">
+        <div class="container grid">
+            <div class="stat-item" data-aos="fade-up">
+                <h2 class="counter" data-target="500000">0</h2>
+                <p>Trees Planted</p>
+            </div>
+            <div class="stat-item" data-aos="fade-up" data-aos-delay="100">
+                <h2 class="counter" data-target="12000">0</h2>
+                <p>Volunteers</p>
+            </div>
+            <div class="stat-item" data-aos="fade-up" data-aos-delay="200">
+                <h2 class="counter" data-target="150">0</h2>
+                <p>Cities Covered</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="campaigns" class="campaigns section-padding">
+        <div class="container">
+            <h2 class="section-title">Our Active Campaigns</h2>
+            <div class="grid">
+                <div class="campaign-card" data-aos="fade-right">
+                    <img src="https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&w=600" alt="Planting">
+                    <div class="content">
+                        <h3>Tree Plantation Drive</h3>
+                        <p>Weekly drives to plant indigenous saplings in urban areas.</p>
+                        <button class="btn-primary">Join Now</button>
+                    </div>
+                </div>
+                <div class="campaign-card" data-aos="fade-up">
+                    <img src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=600" alt="Forest">
+                    <div class="content">
+                        <h3>Stop Deforestation</h3>
+                        <p>Advocating for laws that protect our remaining old-growth forests.</p>
+                        <button class="btn-primary">Join Now</button>
+                    </div>
+                </div>
+                <div class="campaign-card" data-aos="fade-left">
+                    <img src="https://images.unsplash.com/photo-1447752875215-b2761acb3c5d?auto=format&fit=crop&w=600" alt="City">
+                    <div class="content">
+                        <h3>Green City Mission</h3>
+                        <p>Transforming concrete jungles into sustainable green spaces.</p>
+                        <button class="btn-primary">Join Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery" class="gallery section-padding">
+        <div class="container">
+            <h2 class="section-title">Nature Gallery</h2>
+            <div class="gallery-grid">
+                <img src="https://images.unsplash.com/photo-1511497584788-876760111969?auto=format&fit=crop&w=500" alt="Forest" class="gallery-img">
+                <img src="https://images.unsplash.com/photo-1502082553048-f009c37129b9?auto=format&fit=crop&w=500" alt="Tree" class="gallery-img">
+                <img src="https://images.unsplash.com/photo-1473448912268-2022ce9509d8?auto=format&fit=crop&w=500" alt="Path" class="gallery-img">
+            </div>
+        </div>
+    </section>
+
+    <div id="lightbox" class="lightbox">
+        <span class="close-lightbox">&times;</span>
+        <img class="lightbox-content" id="lightbox-img">
+    </div>
+
+    <section id="contact" class="contact section-padding">
+        <div class="container">
+            <div class="glass contact-form-container">
+                <h2 class="section-title">Get In Touch</h2>
+                <form id="contactForm">
+                    <div class="input-group">
+                        <input type="text" id="name" placeholder="Full Name" required>
+                    </div>
+                    <div class="input-group">
+                        <input type="email" id="email" placeholder="Email Address" required>
+                    </div>
+                    <div class="input-group">
+                        <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn-primary">Send Message</button>
+                </form>
+                <div id="form-msg"></div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container footer-grid">
+            <div>
+                <h3>🌳 Save Trees</h3>
+                <p>Protecting the lungs of our planet since 2024.</p>
+            </div>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+        <p class="copyright">&copy; 2026 Save Trees. All Rights Reserved.</p>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
